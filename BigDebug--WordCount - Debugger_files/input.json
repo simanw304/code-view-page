@@ -1,0 +1,21 @@
+{ "nodes":[
+        {"name": "input1", "x": 400, "y": 100, "proportions": [{"group": "success",  "value": 1},
+                             {"group": "fail", "value": 2}]},
+        {"name": "input2", "x": 560, "y": 100, "proportions": [{"group": "success",  "value": 1},
+                             {"group": "fail", "value": 2}]},
+        {"name": "join", "x": 480, "y": 200, "proportions": [{"group": "success",   "value": 2},
+                             {"group": "fail", "value": 2}]},
+        {"name": "step2", "x": 480, "y": 300, "proportions": [{"group": "success",  "value": 2},
+                             {"group": "fail", "value": 2}]},
+        {"name": "step3", "x": 480, "y": 400, "proportions": [{"group": "success",  "value": 1},
+                             {"group": "fail", "value": 2}]},
+        {"name": "step4", "x": 480, "y": 500, "proportions": [{"group": "success",  "value": 1},
+                             {"group": "fail", "value": 2}]}
+                      ],
+"links":[{"source": 0, "target": 2, "length": 100, "width": 1},
+         {"source": 1, "target": 2, "length": 100, "width": 1},
+         {"source": 2, "target": 3, "length": 100, "width": 1},
+         {"source": 3, "target": 4, "length": 100, "width": 1},
+         {"source": 4, "target": 5, "length": 100, "width": 1}
+]
+}
